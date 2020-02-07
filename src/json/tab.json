@@ -1,0 +1,8 @@
+{
+  "tab": [
+    { "name": "推荐", "to": "/recommend", "id": "1" },
+    { "name": "歌手", "to": "/singer", "id": "2" },
+    { "name": "排行", "to": "/rank", "id": "3" },
+    { "name": "搜索", "to": "/search", "id": "4" }
+  ]
+}

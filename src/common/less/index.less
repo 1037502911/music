@@ -1,0 +1,18 @@
+@import "./font.less";
+
+* {
+    margin    : 0px;
+    padding   : 0px;
+    list-style: none;
+}
+
+body {
+    background-color: @color-background;
+    font-family     : "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", arial,
+        sans-serif, "Droid Sans Fallback";
+    color                      : @color-text;
+    -webkit-tap-highlight-color: transparent; //防止ios用户点击跳转页面时产生白光
+    line-height                : 1;
+    user-select                : none; //文字不可被选中
+    overflow                   : hidden; //减去滚动条宽度
+}
